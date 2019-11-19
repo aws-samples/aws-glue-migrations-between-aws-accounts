@@ -1,0 +1,8 @@
+{
+  "DEFAULT": {
+    "sourceDB": [ "sampledb" ],
+    "sourceTables": ["elb_logs"],
+    "targetDB": "glueDBgeneral.template",
+    "targetTables": "glueTablegeneral.template"
+  }
+}
