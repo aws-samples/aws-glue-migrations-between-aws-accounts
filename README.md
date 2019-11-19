@@ -1,7 +1,7 @@
 
 ## Overview of the IDO project ( Internal Data Organization )
 
-This project will help you automate migration of Glue databases and tables across account using CloudFormation. The framework was built for the customer, it connects to an existing AWS account and region, clones the existing Glue database and tables within that region. Given a list of target resources it will generate the appropriate CloudFormation template for the database and tables, including all of the original parameters from the DDL. The next step will be deploying those CloudFormation templates into the destination account.
+This project will help you automate migration of Glue databases and tables across accounts using CloudFormation. The framework was built for a customer, it connects to existing AWS account and region, clones the existing Glue database and tables within that region. Given a list of target resources it will generate the appropriate CloudFormation templates for the database and tables, including all of the original parameters from the DDL. The next step will be deploying those CloudFormation templates into the destination account.
 
 
 #### The Use case
