@@ -36,7 +36,8 @@ The files below are included in this repository:
 | [Generator/glueDBgeneral.template](https://code.amazon.com/packages/AWSProServe_content_GlueMigration/blobs/mainline/--/Generator/glueDBgeneral.template) | This is the Glue DB generic template - While running the code it uses this sample template to inject the existing DB parameters and properties.
 | [Generator/glueTableGeneral.template](https://code.amazon.com/packages/AWSProServe_content_GlueMigration/blobs/mainline/--/Generator/glueTableGeneral.template) | This is the Glue Table generic template - While running the code it uses this sample template to inject the existing Table parameters and properties. |
 | [Generator/glueProperties.json](https://code.amazon.com/packages/AWSProServe_content_GlueMigration/blobs/mainline/--/Generator/glueProperties.json) | This template contains the properties that is passed to the generator class, it includes properties such as which DB to clone and within it which tables to clone. |
-| [Templates](#) | This folder will contain the final templates ready for deployment in the destination account. If doesn't exist it will be created in runtime. |
+
+In addition, after running the software a folder called templates will contain the final templates ready for deployment in the destination account.
 
 After the CloudFormation templates have been deployed, the [Stack Resources](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/resources-section-structure.html) contain the information about the different resources that was deployed.
 
